@@ -18,7 +18,9 @@ const Hero = () => {
             </div>
             <div className="profile bg-slate-600 ">
             <p className="p-2 m-2">Welcome to Growth School</p>
+            <Link href={'/becoming'}> 
             <Image  src={'https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?w=240&t=st=1707725172~exp=1707725772~hmac=78b2a596ade79a604948d0f2799daf0bfbb3a50b0bcb96153f1b1f83b56acb4a'} alt="dog" width={200} height={200}/>
+            </Link>
             </div>
         </div>
     </div>
