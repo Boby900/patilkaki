@@ -13,8 +13,8 @@ const Hero = () => {
                 <div className="bg-slate-500 m-2 p-2">1PM Onwards</div>
                 <div className="bg-slate-500 m-2 p-2">2.5 Hours</div>
             </div>
-            <div className="text-center p-2 bg-slate-600 mt-2 w-full object-contain bg-red-50"><a href="" className="inline-block p-2   bg-yellow-400 w-full text-slate-800">Register Now at 499</a></div>
-            <p className="text-center m-2 p-2 md:bg-slate-600 "><Link href={'/'} className="underline underline-offset-4 ...">click here to get team discount</Link></p>
+            <div className="text-center p-2 bg-slate-600 mt-2 w-full object-contain bg-red-50"><a href="/timer" className="inline-block p-2   bg-yellow-400 w-full text-slate-800">Register Now at 499</a></div>
+            <p className="text-center m-2 p-2 md:bg-slate-600 "><Link href={'/offer'} className="underline underline-offset-4 ...">click here to get team discount</Link></p>
             </div>
             <div className="profile bg-slate-600 ">
             <p className="p-2 m-2">Welcome to Growth School</p>
